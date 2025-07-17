@@ -1,0 +1,39 @@
+# Día 4: Agentes IA + FastAPI - Dependencias (versiones compatibles)
+
+# FastAPI y servidor
+fastapi>=0.100.0
+uvicorn[standard]>=0.20.0
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+
+# LangChain y herramientas IA (versiones compatibles)
+langchain>=0.1.0
+langchain-community>=0.0.10
+langchain-huggingface>=0.1.0
+
+# Hugging Face para modelos gratuitos
+transformers>=4.30.0
+torch>=2.0.0
+accelerate>=0.20.0
+sentence-transformers>=2.2.0
+
+# Herramientas específicas
+duckduckgo-search>=5.0.0
+# Comentamos googletrans por incompatibilidad - usaremos alternativa en código
+# googletrans==4.0.0-rc1
+
+# Utilidades
+python-dotenv>=1.0.0
+httpx>=0.25.0
+aiofiles>=23.0.0
+
+# Para operaciones matemáticas avanzadas
+sympy>=1.12
+
+# Logging y monitoreo
+structlog>=23.0.0
+
+# Para desarrollo
+pytest>=7.0.0
+pytest-asyncio>=0.20.0
+black>=23.0.0 
